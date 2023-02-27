@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Source Code Pro", monospace;
+  background-color: #1f1f1f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  gap: 8rem;
+  margin-top: 4rem;
+}
+
+.player {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #505050;
+  text-shadow: 0rem 0rem 3rem #505050;
+  padding: 2rem;
+  border: 0.1rem solid #ffffff;
+  box-shadow: 0rem 0rem 3rem #ffffff;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: #17d650;
+  box-shadow: 0rem 0rem 3rem #17d650;
+  border: 0.1rem solid #17d650;
+}
+
+.active-two {
+  background-color: #ff1717;
+  box-shadow: 0rem 0rem 3rem #ff1717;
+  border: none;
+}
+
+.table {
+  background-color: #151515;
+  margin: 4rem;
+  border: 0.2rem solid #151515;
+}
+
+.line {
+  display: flex;
+}
+
+.cell {
+  border: 0.2rem solid #151515;
+  width: 14rem;
+  height: 14rem;
+  background-color: #393939;
+  cursor: pointer;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+.cell:hover {
+  background-color: #303030;
+}
+
+.cell {
+  font-family: "Merienda", cursive;
+  font-size: 10rem;
+  color: #17d650;
+  text-shadow: 0rem 0rem 3rem #17d650;
+}
+
+.red {
+  color: #ff1717;
+  text-shadow: 0rem 0rem 3rem #ff1717;
+}
+
+.red-winner {
+  color: #505050;
+  background-color: #ff1717;
+  box-shadow: 0rem 0rem 3rem #ff1717;
+  border: none;
+}
+
+#start-game {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  padding: 1.6rem 2rem;
+  font-size: 2.4rem;
+  background-color: #17d650;
+  box-shadow: 0rem 0rem 3rem #17d650;
+  border: none;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+
+#start-game:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
